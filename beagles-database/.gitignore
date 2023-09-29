@@ -1,0 +1,36 @@
+# Ignore database backup files
+*.bak
+
+# Ignore database log files
+*.ldf
+
+# Ignore temporary or generated files
+*.tmp
+*.log
+
+# User Specific Files
+.suo
+.user
+.sln.docstates
+
+#Compiled Code & Binaries
+/bin/
+/obj/
+
+#IDE/Editor Configuration Files
+.vscode/
+.idea/
+*.suo
+
+#Dependency Lock Files
+yarn.lock
+package-lock.json
+composer.lock
+
+#Temporary Files and Directories
+.tmp/
+.temp/
+.cache/
+
+# Ignore sensitive configuration files
+config.json

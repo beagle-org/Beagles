@@ -32,10 +32,10 @@ import BasicDogCare from './pages/General/BasicDogCare';
 import Problems from './pages/General/Problems';
 import NoLongerKeep from './pages/General/NoLongerKeep';
 import EducationalBrochures from './pages/General/EducationalBrochures';
-import About from './pages/BRSMInfo/About';
-import BRSMHistory from './pages/BRSMInfo/BRSMHistory';
-import VolunteerPositions from './pages/BRSMInfo/VolunteerPositions';
-import ExemptionStatus from './pages/BRSMInfo/ExemptionStatus';
+import About from './pages/About/About';
+import BRSMHistory from './pages/About/BRSMHistory';
+import VolunteerPositions from './pages/About/VolunteerPositions';
+import ExemptionStatus from './pages/About/ExemptionStatus';
 import NotFound from './pages/NotFound';
 
 
@@ -87,8 +87,8 @@ const AppRoutes = () => {
                 <Route path="EducationalBrochures" element={<EducationalBrochures />} />
             </Route>
 
-            <Route path="/BRSMInfo">
-                <Route path="About" element={<About />} />
+            <Route path="/About">
+                <Route path="" element={<About />} />
                 <Route path="BRSMHistory" element={<BRSMHistory />} />
                 <Route path="VolunteerPositions" element={<VolunteerPositions />} />
                 <Route path="ExemptionStatus" element={<ExemptionStatus />} />

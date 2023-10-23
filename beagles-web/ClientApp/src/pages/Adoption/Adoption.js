@@ -11,7 +11,8 @@ import EmergencyVets from './EmergencyVets';
 
 const Adoption = () => {
     return (
-        <div>
+        <div className="container">
+            <div>
             <Routes>
                 <Route path="/" element={<div>How to Adopt Page</div>} />
                 <Route path="StandardsforAdoption" element={<StandardsforAdoption />} />
@@ -22,6 +23,7 @@ const Adoption = () => {
                 <Route path="LostAndFound" element={<LostAndFound />} />
                 <Route path="EmergencyVets" element={<EmergencyVets />} />
             </Routes>
+            </div>
         </div>
     );
 };

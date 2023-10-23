@@ -12,6 +12,7 @@ import Winston from './Winston';
 
 const OurDogs = () => {
     return (
+        <div className="container">
         <div>
             <Routes>
                 <Route path="/" element={<div>Meet Our Dogs</div>} />
@@ -24,6 +25,7 @@ const OurDogs = () => {
                 <Route path="MorganFund" element={<MorganFund />} />
                 <Route path="Winston" element={<Winston />} />
             </Routes>
+            </div>
         </div>
     );
 };

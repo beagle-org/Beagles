@@ -34,6 +34,8 @@ export default class NavMenu extends Component {
     render() {
         return (
             <header>
+                <img src="/BRSMHeader.png" alt="BRSMHeader" className="nav-banner" />
+                <div className="navbar-container">
                 <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" container light>
                     <NavbarBrand tag={Link} to="/">Beagle Rescue of Southern Maryland, Inc.</NavbarBrand>
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
@@ -116,7 +118,8 @@ export default class NavMenu extends Component {
                             </NavItem>
                         </ul>
                     </Collapse>
-                </Navbar>
+                    </Navbar>
+                </div>
             </header>
         );
     }

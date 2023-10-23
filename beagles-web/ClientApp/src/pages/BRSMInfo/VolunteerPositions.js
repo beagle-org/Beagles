@@ -1,7 +1,7 @@
 import React from 'react';
 
 const VolunteerPositions = () => {
-    return <div>Volunteer Positions Page</div>;
+    return <div className="container"><div>Volunteer Positions Page</div></div>;
 };
 
 export default VolunteerPositions;

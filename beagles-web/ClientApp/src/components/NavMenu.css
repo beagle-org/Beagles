@@ -1,22 +1,57 @@
-﻿a.navbar-brand {
-  white-space: nowrap;
-  text-align: center;
-  word-break: break-all;
+﻿.nav-banner {
+    background: #bdbdbd5f;
+    border-radius: 15px;
+}
+
+.nav-banner, .navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.navbar-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.navbar {
+    background: #bdbdbd24;
+    margin-top: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    font-size: 10pt;
 }
 
 .navbar-nav {
-    white-space: nowrap;
-    margin-right: 50px;
+    margin: 0;
+    flex-wrap: wrap;
 }
+
 html {
-    font-size: 14px;
+    font-size: 10pt;
 }
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 1.2vw;
+    }
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }

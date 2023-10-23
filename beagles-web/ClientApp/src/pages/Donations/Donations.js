@@ -8,6 +8,7 @@ import BASHSponsors from './BASHSponsors';
 
 const Donations = () => {
     return (
+        <div className="container">
         <div>
             <Routes>
                 <Route path="/" element={<div>Donations Page</div>} />
@@ -17,6 +18,7 @@ const Donations = () => {
                 <Route path="BASHSponsors" element={<BASHSponsors />} />
                 <Route path="MorganFundDonations" element={<MorganFundDonations />} />
             </Routes>
+            </div>
         </div>
     );
 };

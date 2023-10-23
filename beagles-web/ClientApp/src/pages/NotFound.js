@@ -12,7 +12,7 @@ const NotFound = () => {
         return () => clearTimeout(timer);
     }, [navigate]);
 
-    return <div>404 Page</div>;
+    return <div className="container"> <div>404 Page</div> </div>;
 };
 
 export default NotFound;

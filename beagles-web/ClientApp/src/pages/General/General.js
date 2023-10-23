@@ -10,6 +10,7 @@ import EducationalBrochures from './EducationalBrochures';
 
 const General = () => {
     return (
+        <div className="container">
         <div>
             <Routes>
                 <Route path="/" element={<div>General Info Page</div>} />
@@ -21,6 +22,7 @@ const General = () => {
                 <Route path="NoLongerKeep" element={<NoLongerKeep />} />
                 <Route path="EducationalBrochures" element={<EducationalBrochures />} />
             </Routes>
+            </div>
         </div>
     );
 };

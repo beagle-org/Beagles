@@ -104,10 +104,10 @@ export default class NavMenu extends Component {
                                     BRSM Info
                                 </DropdownToggle>
                                 <DropdownMenu>
-                                    <DropdownItem tag={Link} to="/BRSMInfo/About">About Us</DropdownItem>
-                                    <DropdownItem tag={Link} to="/BRSMInfo/BRSMHistory">BRSM History</DropdownItem>
-                                    <DropdownItem tag={Link} to="/BRSMInfo/ExemptionStatus">501c3 Status</DropdownItem>
-                                    <DropdownItem tag={Link} to="/BRSMInfo/VolunteerPositions">Volunteer Positions</DropdownItem>
+                                        <DropdownItem tag={Link} to="/About/About">About Us</DropdownItem>
+                                        <DropdownItem tag={Link} to="/About/BRSMHistory">BRSM History</DropdownItem>
+                                        <DropdownItem tag={Link} to="/About/ExemptionStatus">501c3 Status</DropdownItem>
+                                        <DropdownItem tag={Link} to="/About/VolunteerPositions">Volunteer Positions</DropdownItem>
                                 </DropdownMenu>
                             </Dropdown>
                             <NavItem>

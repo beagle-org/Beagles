@@ -1,11 +1,15 @@
 ﻿a.navbar-brand {
-  white-space: normal;
+  white-space: nowrap;
   text-align: center;
   word-break: break-all;
 }
 
+.navbar-nav {
+    white-space: nowrap;
+    margin-right: 50px;
+}
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 @media (min-width: 768px) {
   html {

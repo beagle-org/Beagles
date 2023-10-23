@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\beagles-web",
+    "\\beagles-web\\ClientApp",
+    "\\beagles-web\\ClientApp\\public",
+    "\\beagles-web\\ClientApp\\src",
+    "\\beagles-web\\ClientApp\\src\\components",
+    "\\beagles-web\\ClientApp\\src\\data",
+    "\\beagles-web\\ClientApp\\src\\pages",
+    "\\beagles-web\\Pages"
+  ],
+  "SelectedNode": "\\beagles-web\\ClientApp\\src\\pages\\Adoption.js",
+  "PreviewInSolutionExplorer": false
+}

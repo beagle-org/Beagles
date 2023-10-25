@@ -38,7 +38,7 @@ import VolunteerPositions from './pages/About/VolunteerPositions';
 import ExemptionStatus from './pages/About/ExemptionStatus';
 import NotFound from './pages/NotFound';
 
-
+//TODO: Ensure About section is properly nested
 const AppRoutes = () => {
     return (
         <Routes>

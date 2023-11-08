@@ -1,4 +1,4 @@
-Instructions to run initial script using SQL Express and Azure Data Studio
+Instructions to run initial script using SQL Express and ServerManagement Studio
 
 1. Download SQL Server Express:
 
@@ -32,3 +32,5 @@ Instructions to run initial script using SQL Express and Azure Data Studio
 6. Verify the Database:
 
 After executing the script, verify that the database and its objects have been created or updated as intended.
+
+![Diagram](https://github.com/beagle-org/Beagles/assets/108507538/78ce7ea8-dff6-45d8-ada1-75bc95104b93)
